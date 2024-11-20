@@ -1,0 +1,152 @@
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 10px;
+}
+
+body{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+  padding: 20px 10px 0 10px;
+}
+
+
+
+form{
+  width: 100%;
+}
+
+.formCont{
+  padding: 20px 5px;
+  background-image: linear-gradient(#f1c9ec, #ab84cb);
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: middle;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px dimgray;
+  padding: 20px 20px;
+  
+}
+
+.formCont  h1{
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+label{
+  color: #4e4376;
+}
+
+#data{
+  width: 100%;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #e7dbef;
+  margin-bottom: 20px;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+input, textarea, select{
+  height: 20px;
+  border: 1px solid #49225b;
+  border-radius: 5px;
+  background-color: #e7dbef;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.bgColorCont,.fgColorCont {
+  width: 100%;
+  
+  display: flex;
+  flex-grow: 0;
+}
+
+.bgColorCont label,.fgColorCont label{
+  width: 75%;
+}
+
+#bgColor, #fgColor{
+  width: 25%;
+  border: none;
+  
+  padding: 0;
+  background-color: none;
+}
+
+.btnCont {
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+#format{
+  height: 20px;
+  padding: 0px;
+  
+}
+
+#submit{
+  width: 100px;
+  padding: 2px;
+  height: 25px;
+}
+
+.sizeCont{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.sizeCont label{
+  width: 40%;
+}
+
+#size{
+  width: 50%;
+}
+
+.resultCont{
+  background-image: linear-gradient(#f1c9ec, #ab84cb);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px dimgray;
+  padding: 20px 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  display: none;
+}
+
+#img{
+  
+  width: 100%;
+  height: auto;
+}
+
+.resultBtnCont{
+  margin-top: 10px;
+  
+}
+
+#download, #newQr{
+  height: 20px;
+  border: 1px solid #49225b;
+  border-radius: 5px;
+  background-color: #e7dbef;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: #000;
+  
+}
+
+
